@@ -11,7 +11,7 @@ const fs    = require("fs");
 const url   = require("url");
 
 const PORT            = process.env.PORT || 3000;
-const VALID_QUALITIES = ["144p", "360p", "720p"];
+const VALID_QUALITIES = ["144p", "240p", "360p", "480p", "720p"];
 
 if (!fs.existsSync("./videos")) fs.mkdirSync("./videos");
 
